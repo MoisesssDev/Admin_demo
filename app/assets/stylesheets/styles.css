@@ -5,10 +5,14 @@
 
 body {
   font-family: "Inter", sans-serif;
-  color: #303030;
+  color: #3c3c3c;
   background-color: #FFDEE9;
   background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
   height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 nav {
@@ -59,4 +63,50 @@ main .container-btn {
   font-weight: 600;
   padding: 0.3rem 1rem;
   cursor: pointer;
+}
+
+.container-products {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title-product {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  background-color: #303030;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.price-product {
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  font-size: 1.1rem;
+}
+
+.description-product {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.card-product {
+  width: 200px;
+  padding-bottom: 1rem;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.container-img {
+  margin-top: 1rem;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-img img {
+  width: 100%;
 }
