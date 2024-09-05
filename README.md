@@ -1,24 +1,48 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Painel administrativo com a gem Adminstrate
 
-Things you may want to cover:
+Este projeto é uma aplicação Ruby on Rails que inclui um painel administrativo protegido por autenticação.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## Tecnologias utilizada
 
-* Database initialization
+- Ruby (versão 3.0+)
+- Ruby on Rails (versão 7+)
+- Devise (para autenticação)
+- Administrate (para painel administrativo)
+- SQLite
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Instalação
 
-* ...
+**Passos para Instalação**
+
+1. Clone o repositório:
+
+```bash
+  git clone git@github.com:MoisesssDev/Admin_demo.git
+  cd admin_demo
+```
+
+2. Instale as dependências:
+
+```bash
+  bundle install
+```
+
+3. Configurar o banco de dados:
+
+```bash
+  rails db:create
+  rails db:migrate
+  rails db:seed
+```
+
+4. Executar o Servidor
+
+```
+  rails server
+```
